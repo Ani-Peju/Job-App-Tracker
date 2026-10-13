@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2756c5f6-17c6-4930-9bb1-d3b800fbba48" name="Changes" comment="Basic structure of Job Application Tracker&#10;Added functions and library">
+    <list default="true" id="2756c5f6-17c6-4930-9bb1-d3b800fbba48" name="Changes" comment="Added an update function that uses IDs for each application">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,11 +74,20 @@
       <option name="project" value="LOCAL" />
       <updated>1791406675309</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added an update function that uses IDs for each application">
+      <option name="closed" value="true" />
+      <created>1791481784821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1791481784821</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic structure of Job Application Tracker&#10;Added functions and library" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic structure of Job Application Tracker&#10;Added functions and library" />
+    <MESSAGE value="Added an update function that uses IDs for each application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added an update function that uses IDs for each application" />
   </component>
 </project>

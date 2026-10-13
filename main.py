@@ -5,7 +5,8 @@ def user_options():
     print("1. Add Application")
     print("2. View Applications")
     print("3. Update Application")
-    print("4. Exit")
+    print("4. Delete Application")
+    print("5. Exit")
 
 
 def add_application():
@@ -59,6 +60,26 @@ def update_application():
         print("Application not found")
 
 
+#TODO Find a way to change the ID numbers of applications after on has been deleted
+
+def delete_application():
+    view_applications()
+    application_id = int(input("Enter ID of application"))
+
+    deleted = False
+
+    for application in applications:
+        if application["application_id"] == application_id:
+            applications.remove(application)
+            deleted = True
+            break
+
+    if deleted:
+        print("Application is deleted")
+    else:
+        print("Application not found")
+
+
 while True:
     print("\nJob Application Tracker")
     print("=======================")
@@ -74,7 +95,9 @@ while True:
         view_applications()
         update_application()
     elif choice == "4":
-        print("Thank you! Bye for now.")
+        delete_application()
+    elif choice == "5":
+        print("Thank you")
         break
     else:
         print("Error! You've entered an invalid option")
